@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scam Sniper | AI Anti-Fraud Tool</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+  <header class="fade-in">
+    <h1>🛡️ Scam Sniper</h1>
+    <p>Detect scam & phishing links before they trick you.</p>
+  </header>
+
+  <main>
+    <section class="intro slide-up">
+      <h2>📌 What is Scam Sniper?</h2>
+      <p>
+        Scam Sniper helps users instantly scan suspicious websites and detect scams using IP tracking, fraud databases, and AI logic.
+        It's lightweight, fast, and perfect for beginners and experts alike.
+      </p>
+    </section>
+
+    <section class="how-it-works slide-up delay-1">
+      <h2>🔍 How It Works</h2>
+      <ol>
+        <li>Paste any suspicious link you received.</li>
+        <li>Our tool simulates a security scan using backend analysis.</li>
+        <li>You get a color-coded report with scam risk level and details.</li>
+      </ol>
+    </section>
+
+    <section class="tool-prototype slide-up delay-2">
+      <h2>🧪 Scan a Link</h2>
+      <div class="input-group">
+        <input type="text" id="linkInput" placeholder="example.com or https://example.com" />
+        <button onclick="checkScam()">Scan Now</button>
+      </div>
+      <div id="result" class="result card-3d"></div>
+    </section>
+
+    <section class="coming-soon slide-up delay-3">
+      <h2>🚀 Upcoming Features</h2>
+      <ul>
+        <li>Real-time scam detection API</li>
+        <li>Deepfake voice/video fraud alerts</li>
+        <li>WhatsApp & email scam protection bot</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="fade-in delay-4">
+    <p>&copy; 2025 Hacksmiths United. Built to protect.</p>
+  </footer>
+</body>
+</html>
