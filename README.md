@@ -2,7 +2,7 @@
 
 Scam Sniper is an intelligent anti-fraud platform that scans suspicious URLs, analyzes potential scam content, and empowers users with real-time verdicts using threat intelligence APIs. Built for scalability and speed, it helps fight phishing, scams, and fraud — before damage is done.
 
-![Scam Sniper Banner](https://via.placeholder.com/800x250?text=Scam+Sniper+%7C+AI+Anti-Fraud+Tool)
+![Scam Sniper Banner]([https://ibb.co/PvKy2ZwD])
 
 ## 🎯 Features
 
